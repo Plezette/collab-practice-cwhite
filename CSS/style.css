@@ -1,0 +1,17 @@
+.nav {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.leftc{
+    background: #bd7ebd;
+}
+
+.rightc{
+    background: #800080;
+}
+
+.cweb{
+    background: #ffff95;
+    text-align: center;
+}
