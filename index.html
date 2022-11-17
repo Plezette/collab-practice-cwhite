@@ -12,16 +12,28 @@
 
     <title>Hello, world!</title>
   </head>
-  <body class="container-fluid">
+
+  <body class="container">
     <header class="row">
-      <div class="col-2 logo border bg-dark text-white">Logo</div>
-      <nav class="col border nav text-primary">
-        <div>Home</div>
-        <div>About</div>
-        <div>Contact</div>
+      <p class="col-2 h2  text-dark">Logo</p>
+      <nav class="col-10 text-primary text-end">
+        <ul class="list-unstyled list-inline h3">
+          <li class="list-inline-item">Home</li>
+          <li class="list-inline-item">Gallery</li>
+          <li class="list-inline-item">About</li>
+        </ul>
       </nav>
     </header>
-    <section class="row">
+
+    <div class="jumbotron rounded-pill d-flex justify-content-center align-items-center">
+      <div class="hero-text text-center">
+        <h1 class="text-uppercase fst-italic fw-bolder">Travel Blog</h1>
+        <p class="h4 fw-normal"><em>Runaway with Me!</em></p>
+        <button class="btn-info btn-lg">Learn More</button>
+      </div>
+    </div>
+
+    <section class="row mt-5">
       <article class="col border leftc">
         <h3>Left Column</h3>
         <p>Just wanted to see sample text and how it would look in this section!</p>
@@ -31,9 +43,10 @@
         <p>This section looks pretty darn good if you ask me! Ooo-Lala!</p>
       </aside>
     </section>
+
     <footer class="row">
       <div class="col-2 border bg-info">Socials</div>
-      <div class="col border cweb">Crystals Website</div>
+      <div class="col border cweb text-center">Crystals Website</div>
       <nav class="col-2 border text-danger">Mini Nav</nav>
     </footer>
 

@@ -1,6 +1,5 @@
-.nav {
-    flex-direction: row;
-    justify-content: space-around;
+body, html{
+    height: 100%;
 }
 
 .leftc{
@@ -13,5 +12,12 @@
 
 .cweb{
     background: #ffff95;
-    text-align: center;
+}
+
+.jumbotron{
+    background-image: url(../img/AdobeStock_308339245.jpeg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
